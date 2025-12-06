@@ -1,0 +1,137 @@
+VCO  : https://zbotic.in/product/vco-generator-module-with-sweep-power-2-4g/?gad_source=1&gad_campaignid=20903026778&gbraid=0AAAAACTNRdU7Rt_-2l3zuTZi-iZX4zZt8&gclid=Cj0KCQiAosrJBhD0ARIsAHebCNoSLphRg4zsajYGSan0jHsMuOqU4IEEFm8YyS53X8N_abDLG6rWfQgaAgJUEALw_wcB
+
+
+
+Power amplifier : https://www.amazon.in/Amplifier-400%E2%80%912700MHz-400-2700mhz-Logarithmic-Amplifiers/dp/B0C27F2CNS?utm_source=chatgpt.com
+
+Power splitter : https://www.amazon.in/Enakshi%C2%AE-Directional-Coupler-Upgraded-Replacement/dp/B0F8V9QD97?utm_source=chatgpt.com
+
+Frequency mixer : https://www.digikey.in/en/products/detail/mini-circuits/ZX05-42MH-S-/21727735?utm_source=chatgpt.com
+
+Low-noise amplifier (LNA) : https://www.amazon.in/STYLEHEAVEN-Wideband-Amplifier-Switch-Module/dp/B0FGJBQFGS?utm_source=chatgpt.com
+
+Low-pass filter (LPF) : RC circuit R=10K , C=3.3nF
+
+Video amplifier : https://robu.in/product/xd-21-100-times-lm358-gain-amplification-module-operational-amplifier-module/?utm_source=chatgpt.com
+
+ battery pack : https://rees52.com/products/neurofly-11-1v-2000mah-3s-18650-li-ion-battery-pack-3c-3s1p-li-ion-battery-with-female-dc-jack-amass-nylon-t-plug-and-4-pin-jst-connector-rs9348?variant=46898388074663&country=IN&currency=INR&utm_source=chatgpt.com
+
+6× SMA coaxial cable : https://robu.in/product/mc002989-rf-coaxial-cable-assembly-3-ghz-gold-plated-sma-plug-to-sma-plug-rg316-50-ohm-10-255-mm/
+
+
+
+ramp gen : https://robu.in/product/ne555-hlf-4-5v-to-15v-bipolar-precision-timer-ic-rohs/
+
+
+
+
+
+processing on laptop : https://robu.in/product/aux3-5mm-audio-extension-cable-2m-male-to-male-grey/
+
+copper probe : https://www.amazon.in/Gromed-Copper-Probe-Malleable-Fistula/dp/B0CFHB595Z?th=1
+
+buck converter : LM 2596
+
+
+Here’s what I’d actually order so you’re not stuck:
+
+Resistors (¼ W, 5%)
+
+1 kΩ – 20 pcs
+
+4.7 kΩ – 20 pcs (handy for dividers/tweaks)
+
+10 kΩ – 40 pcs (your main workhorse: LPF, pullups, etc.)
+
+22 kΩ – 20 pcs
+
+47 kΩ – 20 pcs
+
+100 kΩ – 20 pcs
+
+That small set will cover your radar plus future tweaks / experiments.
+
+Capacitors
+
+Ceramic (or film) small values:
+
+3.3 nF (332) – 10 pcs
+
+10 nF (103) – 10 pcs
+
+100 nF / 0.1 µF (104) – 30 pcs (decoupling + 555 + generic)
+
+Electrolytic:
+
+1 µF – 10 pcs
+
+10 µF (16 V or higher) – 20 pcs
+
+100 µF (16–25 V) – 10 pcs (for bulk on battery/buck outputs)
+
+
+
+
+
+
+
+
+
+
+VCO – HW205 2.4 GHz VCO (Zbotic)
+
+Power amplifier – RF2126 400–2700 MHz PA (Amazon)
+
+Power splitter – Enakshi 2.4 GHz directional coupler
+
+Frequency mixer – Mini-Circuits ZX05-42MH-S+
+
+LNA – STYLEHEAVEN wideband amp/switch (OK as a first-try LNA)
+
+LPF – RC: R = 10 kΩ, C = 3.3 nF (you have the parts list)
+
+Video amp – LM358 100× gain module (XD-21)
+
+Battery – 11.1 V 2000 mAh 3S Li-ion (Neurofly)
+
+SMA coax – 6× RG316 SMA–SMA cables
+
+Ramp gen IC – NE555
+
+Audio to laptop – 3.5 mm male–male aux cable
+
+Copper probe – that copper probe (you’ll just cut pieces)
+
+Buck converter – LM2596 modules
+
+Resistors:
+
+1 k, 4.7 k, 10 k, 22 k, 47 k, 100 k (qty as you wrote)
+
+Capacitors:
+
+3.3 nF, 10 nF, 100 nF, 1 µF, 10 µF, 100 µF
+
+1× bare LM358 IC
+
+2× SMA panel-mount connectors
+
+1× 3.5 mm jack breakout
+
+2–3× LM2596 boards
+
+
+
+
+
+
+
+
+TOTAL : (Without 2 x cans and mechanical hardware req)  28,000 / - 
+
+video :
+https://www.youtube.com/watch?v=s4MNEtMmmmI
+
+MIT: 
+https://ocw.mit.edu/courses/res-ll-003-build-a-small-radar-system-capable-of-sensing-range-doppler-and-synthetic-aperture-radar-imaging-january-iap-2011/
+
